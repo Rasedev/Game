@@ -1,0 +1,153 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box {
+  position: relative;
+}
+.fIbox {
+  background: repeating-linear-gradient(45deg, black, transparent 100px);
+  width: 400px;
+  height: 270px;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+  transform: translateY(130px);
+}
+.tit {
+  color: deeppink;
+  padding-bottom: 35px;
+  padding-top: 50px;
+  /* text-decoration: underline; */
+}
+.fInput {
+  background: wheat;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+.gameBtn {
+  display: block;
+  background: #e91e63;
+  color: #fff;
+  margin-top: 20px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.playerOneBox {
+  background: linear-gradient(45deg, black, transparent);
+  width: 400px;
+  height: 270px;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+  transform: translateY(130px);
+  display: none;
+}
+
+.playerOneInput {
+  background: wheat;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.playerOneInputBtn {
+  display: block;
+  background: #e91e63;
+  color: #000;
+  margin-top: 20px;
+  padding: 12px 22px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.playerTwoBox {
+  background: rgb(37, 56, 50);
+  width: 400px;
+  height: 270px;
+  text-align: center;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+  transform: translateY(130px);
+  display: none;
+}
+.playerTwoInput {
+  background: wheat;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.playerTwoInputBtn {
+  display: block;
+  background: #e91e63;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+h3 {
+  margin-top: -15px;
+  margin-bottom: 10px;
+  color: yellowgreen;
+  font-size: 1.4rem;
+}
+.tit-2 {
+  color: gold;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  text-decoration: underline;
+}
+.win {
+  background: radial-gradient(black, transparent);
+  width: 400px;
+  height: 270px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+  transform: translateY(130px);
+  display: none;
+}
+.wow {
+  padding-top: 70px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.congrats {
+  color: lawngreen;
+  padding-top: 20px;
+}
+.GameOver {
+  background: radial-gradient(violet, transparent);
+  width: 400px;
+  height: 270px;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 40%;
+  position: absolute;
+  transform: translateY(130px);
+  display: none;
+}

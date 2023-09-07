@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="box">
+      <div class="fIbox">
+        <h1 class="tit">Wanna Play Game</h1>
+        <input class="fInput" type="text" placeholder="Your Name" />
+        <button class="gameBtn">Start Game</button>
+        <div class="error"></div>
+      </div>
+
+      <div class="playerOneBox">
+        <h1 class="tit">Player - 1</h1>
+        <input id="myText" class="playerOneInput" type="text" placeholder="Please Give A Number" />
+        <button class="playerOneInputBtn">Let's Play</button>
+        <!-- <div class="error"></div> -->
+      </div>
+
+      <div class="playerTwoBox">
+        <h1 class="tit-2">Player - 2</h1>
+        <h3>CHANCE : <span class="chance"></span></h3>
+        <input
+          id="myText"
+          class="playerTwoInput"
+          type="text"
+          placeholder="Please Give A   Number"
+        />
+        <button class="playerTwoInputBtn">Guess Number</button>
+        <!-- <div class="error"></div> -->
+      </div>
+      <div class="win">
+        <h1 class="wow">You Win💮</h1>
+        <h2 class="congrats">CONGRTS😃</h2>
+      </div>
+
+      <div class="GameOver">
+        <h1 class="wow">You Loose🤔</h1>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
